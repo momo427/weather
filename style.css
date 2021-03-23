@@ -1,0 +1,14 @@
+body{
+    padding: 20px;
+    background-color: rgb(235, 250, 249);
+    display: flex;
+    justify-content: center;
+    margin: 80,80,80,80 ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+
+}
