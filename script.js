@@ -2,6 +2,8 @@
 with a city name as a parameter it pulls the °F
 on that current city
 */
+//Put variables for api calls maybe
+var city = ""
 let weather = {
     apiKey: "41e57c1f78973f401f5499f98795c5c2",
     fetchWeather: function (city) {
@@ -20,8 +22,7 @@ let weather = {
         })
         .then((data) => this.displayWeather(data));
     },
-    /*
-     */
+    /*show all weather data */
     displayWeather: function (data) {
       const { name } = data;
       const { icon, description } = data.weather[0];
@@ -44,6 +45,12 @@ let weather = {
       this.fetchWeather(document.querySelector(".search-bar").value);
     },
   };
+
+  //save city to local storage
+
+  localStorage.setItem("city", JSON.stringify(city));
+  
+  /*event listener for search  */
   
   document.querySelector(".search button").addEventListener("click", function () {
     weather.search();
@@ -56,5 +63,32 @@ let weather = {
         weather.search();
       }
     });
-  
-  weather.fetchWeather("Denver");
+    weather.fetchWeather("Baltimore");
+
+//Use of direct geocoding//
+
+
+
+//   let uvi = {
+//     apiKey: "41e57c1f78973f401f5499f98795c5c2",
+//     fetchConditions: function (city) {
+//       fetch(
+//         "http://api.openweathermap.org/geo/1.0/direct?q=" +
+//         city +
+//         "&limit=5&appid=" +
+//           this.apiKey
+//       )
+//         .then((response) => {
+//           if (!response.ok) {
+//             alert("Location weather found.");
+//             throw new Error("No  location weather found.");
+//           }
+//           return response.json();
+//         })
+//         .then(() => this.futureWeather());
+//     },
+
+
+
+
+    /*Future forcast */
