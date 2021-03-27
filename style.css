@@ -1,8 +1,5 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
@@ -10,14 +7,12 @@ body {
     font-size: 120%;
   }
   
-  .card {
+  .container {
     background: #000000d0;
     color: white;
     padding: 2em;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    /* width: 100%;
+    width: 100%;
     max-width: 420px;
-    margin: 1em; */
-  }
+    margin: 1em;
+  
