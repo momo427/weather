@@ -29,7 +29,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ```md
-![alt text](assets/images/screenshot.png)
+![alt text](./assets/Screen Shot 2021-03-27 at 7.25.28 PM.png)
 ```
 
 
