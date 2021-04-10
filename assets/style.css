@@ -4,7 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
-    background-image: cover;
+    background-image: no-repeat;
+    background-size: cover;
     font-size: 120%;
   }
   
