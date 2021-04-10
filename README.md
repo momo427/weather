@@ -35,8 +35,11 @@ THEN I am again presented with current and future conditions for that city
 
 ## Credits
 
-open weather api:
+Open Weather api:
 UV index 
 Current weather api 
 Daily Forecast 
+
+## License
+None
 
