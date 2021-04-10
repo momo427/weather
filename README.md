@@ -1,11 +1,11 @@
-# weather
+# Weather
 
 ## Description 
 
 This weather app allows the user to check the current weather, five day forcaset, wind speed, UV index, and humidity of any city. This weather app is great for people who wish to travel. The weather application uses various open weather api's in order to encorpurate its various attributes.In addtion searches are saved to local storage, allowing users to revist previously searched cities.
 
 
-Dployed github  [the VSCode repository](https://momo427.github.io/weather/)
+Dployed github  [Weather App](https://momo427.github.io/weather/)
 
 
 ## Installation
