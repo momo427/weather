@@ -23,9 +23,15 @@ body {
 .container {
   display: flex;
   display: inline;
+  background:none;
 }
 .row{
   height: fit-content;
+  width: fit-content;
+  margin: none;
+}
+.float-right{
+  height: fit-content ;
 }
 
   }
