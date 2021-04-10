@@ -20,6 +20,11 @@ body {
   }
 
   @media only screen and (max-width: 768px){
+    body{
+      display:flex;
+      flex-wrap: wrap;
+     
+    }
 .container {
   display: flex;
   display: inline;
@@ -29,9 +34,6 @@ body {
   height: fit-content;
   width: fit-content;
   margin: none;
-}
-.float-right{
-  height: fit-content ;
 }
 
   }
